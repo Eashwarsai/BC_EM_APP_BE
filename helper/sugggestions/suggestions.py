@@ -1,4 +1,4 @@
-from back_end.db import get_db
+from  db import get_db
 import sqlite3
 import uuid
 def add_suggestion(place, category, event_id, is_chosen=False):

@@ -1,4 +1,4 @@
-from back_end.db import get_db
+from db import get_db
 import sqlite3
 import uuid
 def add_event(event_name, event_status, event_date, user_id ):
