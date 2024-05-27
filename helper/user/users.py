@@ -1,4 +1,4 @@
-from db import get_db
+from   ...db import get_db
 import sqlite3
 import uuid
 from flask import session
